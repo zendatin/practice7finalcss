@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .nancy {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 20% 55% 25%;
+        background-color: cornsilk;
+    }
+
+    .item1 {
+        grid-area: 1 / 1 / 2 / 4;
+        height: 70px;
+        border: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-radius: 7px;
+        background-color: white;
+
+    }
+
+    .item2 {
+        border: 1px solid gray;
+        background-color: gainsboro;
+        border-radius: 5px;
+    }
+
+    .item2 {
+        padding-left: 20px;
+        margin-right: 20px;
+    }
+
+    .newsfeed1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .n1:hover {
+        background-color: white;
+    }
+
+    .n1,
+    .n2,
+    .n3,
+    .n4 {
+        margin-bottom: 30px;
+    }
+
+    .m1,
+    .m2,
+    .m3,
+    .m4 {
+        margin-bottom: 30px;
+    }
+
+    .item3 {
+        margin-right: 20px;
+    }
+
+    .item31 {
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .item32 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10px;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .item33 {
+        padding: 20px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-color: white;
+        margin-bottom: 20px;
+
+    }
+
+    .item34 {
+        padding: 20px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-color: white;
+
+    }
+
+    .item41 {
+        margin-top: 40px;
+        height: 150px;
+        border: 1px solid gray;
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .item42 {
+        height: 350px;
+        border: 1px solid gray;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .item43 {
+        border: 1px solid gray;
+        margin-top: 20px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    div i {
+        font-size: 30px;
+    }
+
+    div img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+
+    span img {
+        width: 100px;
+        height: 100px;
+        border-radius: 0;
+    }
+
+    .pictureside img {
+        width: 48%;
+        height: 120px;
+        border-radius: 0%;
+
+    }
+
+    .pictureside {
+        padding-left: 5px;
+    }
+
+    .pictures3>img {
+        width: 32%;
+        height: 200px;
+    }
+
+    span.addnumber {
+        width: 32%;
+    }
+
+    span.addnumber img {
+        width: 90%;
+        height: 200px;
+    }
+
+    .addnumber1 {
+        text-shadow: 1px 1px 1px #fff;
+    }
+
+    .nancyside img {
+        width: 98%;
+        height: 200px;
+        border-radius: 0%;
+    }
+
+    .symbollike i {
+        font-size: 20px;
+    }
+
+    .symbollike {
+        margin-top: 10px;
+    }
+
+    .outlineavatar img {
+        outline: 1px solid rgb(173, 207, 207);
+        outline-offset: 5px;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item1">
+            <i class="fa-brands fa-facebook" style="font-size: 50px;color: cornflowerblue;"></i>
+            <input type="text" placeholder="Search"
+                style="position: relative;height: 30px;width: 400px;border-radius: 5px;">
+            <i class="fa-solid fa-magnifying-glass"
+                style="position: relative;right: 60px;font-size: 12px;opacity: 0.6;"></i>
+            <div style="display: flex;align-items: center;">
+                <img src="./image/1.jpg" alt="" class="nancy">
+                <span><i><b> Nguyễn Đức Tín</b></i></span>
+            </div>
+            <span> <b>Create</b> </span>
+            <span> <b>Home</b> </span>
+            <i class="fa-brands fa-facebook-messenger" style="color: hotpink;"></i>
+            <i class="fa-solid fa-bell" style="color: crimson;"></i>
+            <i class="fa-solid fa-bell" style="opacity: 0.6;color: gray;"></i>
+            <i class="fa-brands fa-facebook-messenger" style="opacity: 0.6;color: gray;"></i>
+            <i class="fa-solid fa-caret-down"></i>
+
+        </div>
+        <div class="item2">
+            <div class="newsfeed1">
+                <div class="n1">
+                    <i class="fa-solid fa-square-rss wifi" style="font-size: 30px;margin-top: 40px;"></i>
+                    <span>News Feed</span>
+                </div>
+                <div class="n2">
+                    <i class="fa-solid fa-envelope" style="font-size: 30px;"></i>
+                    <span>Messenger</span>
+                </div>
+                <div class="n3">
+                    <i class="fa-solid fa-tv" style="font-size: 30px;"></i>
+                    <span>Watch</span>
+                </div>
+                <div class="n4">
+                    <i class="fa-solid fa-shop" style="font-size: 30px;"></i>
+                    <span>Market place</span>
+                </div>
+            </div>
+            <div>
+                <h4 style="margin-top: 40px;"> <b> Explore</b></h4>
+                <div class="m1">
+                    <i class="fa-solid fa-flag" style="font-size: 30px;"></i>
+                    <span>Pages</span>
+                </div>
+                <div class="m2">
+                    <i class="fa-solid fa-volume-high" style="font-size: 30px;"></i>
+                    <span>Advertise</span>
+                </div>
+                <div class="m3">
+                    <i class="fa-solid fa-user-group" style="font: 30px;"></i>
+                    <span>Group</span>
+                </div>
+                <div class="m4">
+                    <i class="fa-solid fa-calendar-days" style="font-size: 30px;"></i>
+                    <span>Group</span>
+                </div>
+            </div>
+        </div>
+        <div class="item3">
+            <div style="display: flex;align-items: center;margin-top: 40px;border: 1.5px solid gray;height: 70px; padding: 10px;"
+                class="item31">
+                <img src="./image/nancy.jpg" alt="" style="width: 40px;height: 40px;border-radius: 100%;">
+                <span style="opacity: 0.6;">What is your curent status?</span>
+            </div><br>
+            <div class="item32">
+                <div>
+                    <i class="fa-solid fa-photo-film" style="font-size: 30px;" style="color: cadetblue;"></i>
+                    <span>Video/Photo</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-group" style="color: green;"></i>
+                    <span>Friends</span>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-face-smile" style="color: rgb(139, 139, 75);"></i>
+                    <span>Feelings/Activity</span>
+                </div>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="item33">
+                <div style="display:flex ;align-items: center;" class="item331">
+                    <img src="./image/4.jpg" alt="">
+                    <span style="line-height: 1px; padding-left: 10px;">
+                        <p><b>Thuỷ Tiên </b></p>
+                        <div>
+                            <i class="fa-solid fa-clock" style="font-size: 10px;"></i>
+                            <span style="font-size: 10px;">5 Minutes ago</span>
+                        </div>
+                    </span>
+                </div>
+                <span>
+                    <p> <i style="font-size: 20px;"> How to get positive enery to myseft</i></p>
+                    <div class="pictures3" style="display: flex;justify-content: space-between;">
+                        <img src="./image/tin.jpg" alt="" style="border: 1px solid black;">
+                        <img src="./image/tien.jpg" alt="">
+                        <span class="addnumber"
+                            style="position: relative;display: flex;align-items: center;justify-content: center;">
+                            <img src="./image/tí.jpg" alt="" style="opacity: 0.6;">
+                            <span class="addnumber1"
+                                style="position: absolute;font-size: 50px;color: white;">+3</span>
+                        </span>
+                    </div>
+                </span>
+                <div class="symbollike">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>147k</span>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <span>50k</span>
+                    <i class="fa-solid fa-share"></i>
+                    <span>Share</span>
+
+                </div>
+            </div>
+            <div class="item34">
+                <div style="display:flex ;align-items: center;" class="item332">
+                    <img src="./image/4.jpg" alt="">
+                    <span style="line-height: 1px; padding-left: 10px;">
+                        <p><b>Nguyễn Đức Tín </b></p>
+                        <div>
+                            <i class="fa-solid fa-clock" style="font-size: 10px;"></i>
+                            <span style="font-size: 10px;">3 Minutes ago</span>
+                        </div>
+                    </span>
+                </div>
+                <span>
+                    <p> <i style="font-size: 20px;"> If i were you, i could understand!!!</i></p>
+                    <div class="pictures3" style="display: flex;justify-content: space-between;">
+                        <img src="./image/g.jpg" alt="">
+                        <img src="./image/b.jpg" alt="">
+                        <img src="./image/k.jpg" alt="">
+                    </div>
+                </span>
+                <div class="symbollike">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>100k</span>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <span>30k</span>
+                    <i class="fa-solid fa-share"></i>
+                    <span>Share</span>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="item4">
+            <div class="item41" style="margin-bottom: 15px;">
+                <span>Stories <span style="float: right;">See All</span></span>
+                <div style="display: flex;justify-content: space-between;" class="outlineavatar">
+                    <img src="./image/1.jpg" alt="">
+                    <img src="./image/4.jpg" alt="">
+                    <img src="./image/3.jpg" alt="">
+                    <img src="./image/5.jpg" alt="">
+                </div>
+            </div>
+            <div class="item42">
+                <p> <b style="padding-left: 5px;"> Beatiful Landscape </b></p>
+                <div class="pictureside">
+                    <span style="position: relative;">
+                        <img src="./image/bien.jpg" alt="">
+                        <span style="position: absolute;left: 3px;bottom: 3px;">Quy Nhơn</span>
+                    </span>
+                    <span style="position: relative;">
+                        <img src="./image/bien2.jpg" alt="">
+                        <span style="position: absolute;left: 3px;bottom: 3px;">Nha Trang</span>
+                    </span>
+
+
+                </div>
+                <div class="pictureside">
+                    <span style="position: relative;">
+                        <img src="./image/bien3.jpg" alt="">
+                        <span style="position: absolute;left: 3px;bottom: 3px;">Vũng Tàu</span>
+                    </span>
+                    <span style="position: relative;">
+                        <img src="./image/b.jpg" alt="">
+                        <span style="position: absolute;left: 3px;bottom: 3px;">Phú Quốc</span>
+                    </span>
+
+
+                </div>
+            </div>
+            <div class="item43">
+                <span> <b> Sponsored </b><span style="float: right;"> <b> Check Ad</b></span></span><br>
+                <div class="nancyside"><img src="./image/3.jpg" alt="" style="margin-top: 20px;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
